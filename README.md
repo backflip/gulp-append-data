@@ -38,7 +38,7 @@ app/test.json
 
 app/test.html
 ```html
-<div><%= foo %></div>
+<div>{{ foo }}</div>
 ```
 
 dist/test.html
