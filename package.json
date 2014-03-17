@@ -1,6 +1,6 @@
 {
   "name": "gulp-append-data",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Append content of JSON file as property to currently streamed file",
   "license": "MIT",
   "repository": {
