@@ -1,0 +1,39 @@
+{
+  "name": "gulp-append-data",
+  "version": "0.0.1",
+  "description": "Append content of JSON file as property to currently streamed file",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/backflip/gulp-append-data"
+  },
+  "author": {
+    "name": "Thomas Jaggi"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "consolidate",
+    "append",
+    "data",
+    "json"
+  ],
+  "dependencies": {
+    "gulp-util": "^2.2.14",
+    "through2": "^0.4.1",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.0",
+    "gulp": "^3.5.6",
+    "event-stream": "^3.1.0",
+    "chai": "^1.9.0"
+  }
+}
